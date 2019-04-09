@@ -14,11 +14,17 @@ The hyperparameter I used are listed below as well, turns out the size of batch 
 
 
 Replay buffer size: 100000
+
 Minibatch size: 512
+
 Discount facotr: 0.99
+
 Soft update of target parameters: 0.001
+
 Learning rate of the actor: 0.0001
+
 Learning rate of the critic: 0.001
+
 L2 weight decay: 0
 
 ## Results
