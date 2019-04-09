@@ -21,6 +21,7 @@ https://github.com/phchoi/drlnd-continuous-control
 Please follow the document [here]( https://github.com/udacity/deep-reinforcement-learning#dependencies)
 
 3. Download the Unity Environment
+
 Version 1: One (1) Agent
 
     Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip) / 
