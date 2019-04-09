@@ -1,5 +1,7 @@
 # README 
 
+![control_arm](https://github.com/phchoi/drlnd-continuous-control/blob/master/reacher.gif)
+
 This project is aimed to solve a problem of how to continuously control a double-jointed arm to move to target locations.
 
 In the beginning, the arm will only randomly perform different action towards random location, however we will need to train it up to stick with the location such that it will continuously stick with the ball on the picture shown above.
