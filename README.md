@@ -37,6 +37,6 @@ Version 1: One (1) Agent
     
     Then, place the file in the code directory and unzip (or decompress) the file.
 
-4. Run the Continuous_Control.ipynb and follow the instructions to learn how to use the Python API to control the agent.
+4. Run the [Continuous_Control.ipynb](https://github.com/phchoi/drlnd-continuous-control/blob/master/Continuous_Control.ipynb) and follow the instructions to learn how to use the Python API to control the agent.
 
 
