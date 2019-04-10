@@ -12,28 +12,42 @@ The learning Algorithm is based on DDPG algorithm ([reference paper](https://arx
 
 The hyperparameter I used are listed below as well, turns out the size of batch size and TAU (soft update of target parameters) played a major role in improving the training time.
 
-
-Replay buffer size: 100000
-
-Minibatch size: 512
-
-Discount facotr: 0.99
-
-Soft update of target parameters: 0.001
-
-Learning rate of the actor: 0.0001
-
-Learning rate of the critic: 0.001
-
-L2 weight decay: 0
+Replay buffer size: 100000  
+Minibatch size: 512  
+Discount facotr: 0.99  
+Soft update of target parameters: 0.001  
+Learning rate of the actor: 0.0001  
+Learning rate of the critic: 0.001  
+L2 weight decay: 0  
 
 ## Results
+
+The models take 18422 secs to finish, and we can see it progress gradually through out the training cycle.
+
+Episode 25	Average Score: 0.12 Min Score: 0.00 Highest Score: 0.46 Elapsed time: 931 secs  
+Episode 50	Average Score: 0.56 Min Score: 0.00 Highest Score: 2.04 Elapsed time: 2065 secs  
+Episode 75	Average Score: 1.45 Min Score: 0.00 Highest Score: 4.47 Elapsed time: 3306 secs  
+Episode 100	Average Score: 2.16 Min Score: 0.00 Highest Score: 5.81 Elapsed time: 4524 secs  
+Episode 125	Average Score: 3.73 Min Score: 0.02 Highest Score: 8.91 Elapsed time: 5752 secs  
+Episode 150	Average Score: 5.88 Min Score: 1.78 Highest Score: 13.68 Elapsed time: 6967 secs  
+Episode 175	Average Score: 8.56 Min Score: 1.78 Highest Score: 18.65 Elapsed time: 8185 secs  
+Episode 200	Average Score: 11.64 Min Score: 3.15 Highest Score: 19.90 Elapsed time: 9395 secs  
+Episode 225	Average Score: 13.98 Min Score: 7.54 Highest Score: 19.90 Elapsed time: 10609 secs  
+Episode 250	Average Score: 16.24 Min Score: 11.16 Highest Score: 23.17 Elapsed time: 11820 secs  
+Episode 275	Average Score: 18.18 Min Score: 13.30 Highest Score: 25.22 Elapsed time: 13037 secs  
+Episode 300	Average Score: 20.15 Min Score: 13.30 Highest Score: 28.33 Elapsed time: 14248 secs  
+Episode 325	Average Score: 23.26 Min Score: 16.02 Highest Score: 30.89 Elapsed time: 15463 secs  
+Episode 350	Average Score: 26.59 Min Score: 18.07 Highest Score: 34.06 Elapsed time: 16674 secs  
+Episode 375	Average Score: 29.18 Min Score: 19.67 Highest Score: 34.55 Elapsed time: 17889 secs  
+Episode 386	Average Score: 30.07 Min Score: 19.67 Highest Score: 34.55 Elapsed time: 18422 secs  
+
+Environment solved in 386 episodes!  
+Average Score of last 100 run: 30.071 Total elapsed time: 18422 secs
+
+
+
 
 ## Idea of future works
 Definitely would be try adding optimization methods like Proximal Policy Optimization (PPO) and see will it be able to show any impact to training behavior and performance.
 
-
-# Dillinger
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
