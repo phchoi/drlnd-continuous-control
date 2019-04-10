@@ -44,6 +44,7 @@ Episode 386	Average Score: 30.07 Min Score: 19.67 Highest Score: 34.55 Elapsed t
 Environment solved in 386 episodes!  
 Average Score of last 100 run: 30.071 Total elapsed time: 18422 secs
 
+![training_plot_chart](https://github.com/phchoi/drlnd-continuous-control/blob/master/training.png)
 
 
 
